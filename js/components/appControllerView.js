@@ -7,10 +7,14 @@ var AppControllerView = React.createClass({
     return (
       <div>
         <h2>The Required.</h2>
-        <ul>
-          <li> <Link to='/see'> See All </Link> </li>
-          <li> <Link to='/add'> Add New </Link> </li>
-        </ul>
+        <nav className="navbar">
+          <div className="container">
+            <ul className="navbar-list">
+              <li className="navbar-item"><Link to='/see' className="navbar-link"> See All </Link></li>
+              <li className="navbar-item"><Link to='/add' className="navbar-link"> Add New </Link></li>
+            </ul>
+          </div>
+        </nav>
         {
           //renders the children
           this.props.children
