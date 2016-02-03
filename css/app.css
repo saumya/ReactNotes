@@ -1,8 +1,32 @@
 body{
-	background-color: #FCC;
+	background-color: #EEF;
 }
 #navlist li{
 	display: inline;
 	list-style-type: none;
 	padding-right: 1rem;
 }
+/* Skeleton Extension */
+.button.button-red,
+button.button-red,
+input[type="submit"].button-red,
+input[type="reset"].button-red,
+input[type="button"].button-red {
+  color: #FFF;
+  background-color: #444;
+  border-color: #444; }
+.button.button-red:hover,
+button.button-red:hover,
+input[type="submit"].button-red:hover,
+input[type="reset"].button-red:hover,
+input[type="button"].button-red:hover,
+.button.button-red:focus,
+button.button-red:focus,
+input[type="submit"].button-red:focus,
+input[type="reset"].button-red:focus,
+input[type="button"].button-red:focus {
+  color: #FFF;
+  background-color: #F00;
+  border-color: #F00; }
+
+/* END : Skeleton Extension */  

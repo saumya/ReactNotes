@@ -9,8 +9,8 @@ var AppControllerView = React.createClass({
         <nav className="u-full-width">
           <h2>The Required.</h2>
           <ul id="navlist">
-            <li><Link to='/see' className="button"> See All </Link></li>
-            <li><Link to='/add' className="button"> Add New </Link></li>
+            <li><Link to='/see' className="button button-red"> See All </Link></li>
+            <li><Link to='/add' className="button button-red"> Add New </Link></li>
           </ul>
         </nav>
         {
