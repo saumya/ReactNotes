@@ -2,7 +2,7 @@
   "name": "the-address",
   "version": "4.0.0",
   "description": "Save the address now.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "2js": "babel --presets react,es2015 js --out-dir buildReact",
     "pack": "webpack buildReact/app.js build/bundle.js",
