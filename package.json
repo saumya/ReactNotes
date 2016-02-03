@@ -1,0 +1,20 @@
+{
+  "name": "the-address",
+  "version": "4.0.0",
+  "description": "Save the address now.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saumya"
+  },
+  "keywords": [
+    "phonegap",
+    "cordova",
+    "utility"
+  ],
+  "author": "saumya",
+  "license": "MIT"
+}
